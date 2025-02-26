@@ -2,7 +2,7 @@ import java.io.IOException;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-public class Runner {
+class Runner {
     public static void main(String[] args) {
         if (args.length < 3) {
             System.out.println("Usage: java -jar myApp.jar <ENCRYPT/DECRYPT> <filePath> <key>");
