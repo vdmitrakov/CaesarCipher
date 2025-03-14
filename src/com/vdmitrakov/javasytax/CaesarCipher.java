@@ -1,11 +1,13 @@
+package com.vdmitrakov.javasytax;
+
 class CaesarCipher {
     private static final String ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz.,«»\"':!? ";
 
-    public static String encrypt(String text, int key) {
+    static String encrypt(String text, int key) {
         return shiftText(text, key);
     }
 
-    public static String decrypt(String text, int key) {
+    static String decrypt(String text, int key) {
         return shiftText(text, -key);
     }
 
